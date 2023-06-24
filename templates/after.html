@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <br>
+        <br>
+        <h1>
+            <b>
+             Disease:- PREDICTION
+            <br>
+            </b>
+
+
+        </h1>
+        {% if data == 'Fungal infection' %}
+        <h1>Fungal Infection</h1>
+    {% elif data == 'Allergy' %}
+       <h1>Allergy</h1>
+       {% elif data == 'Drug Reaction' %}
+       <h1>Drug Reaction    </h1>
+    
+       {% elif data == 'AIDS' %}
+       <h1>AIDS    </h1>
+
+       {% elif data == 'Diabetes' %}
+       <h1>Diabetes     </h1>
+       {% elif data == 'Hypertension' %}
+       <h1>Hypertension     </h1>
+       {% elif data == 'Migraine' %}
+       <h1>Allergy</h1>
+       {% elif data == 'Malaria' %}
+       <h1>Malaria</h1>
+       {% elif data == 'Chicken pox' %}
+       <h1>Chicken pox</h1>
+       {% elif data == 'Dengue' %}
+       <h1>Dengue</h1>
+       {% elif data == 'Typhoid' %}
+       <h1>Typhoid    </h1>
+       {% elif data == 'Common Cold' %}
+       <h1>Common Cold</h1>
+       {% elif data == 'Heart attack' %}
+       <h1>Heart attack    </h1>
+       {% elif data == 'Jaundice' %}
+       <h1>Jaundice</h1>
+       {% else %}
+        <h1>amit: {{ data }}</h1>
+    {% endif %}
+    
+
+    </center>
+
+</body>
+</html>
